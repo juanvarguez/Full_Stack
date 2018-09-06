@@ -1,0 +1,102 @@
+/* Style the HTML elements according to the following instructions. 
+DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
+/* Elemento <body> con background de #bdc3c7 */
+body {
+	background-color: #bdc3c7;
+}
+
+/* Hacer <h1> con color #9b59b6 */
+h1 {
+	color: #9b59b6;
+}
+
+/* Hacer todos los <h2> con color naranja */
+h2 {
+	color: orange;
+}
+
+/* Hacer todos los <li> color azul(Escoje un hexadecimal) */ 
+li {
+	color: #22E4C6;
+}
+
+/* Cambiar el backgroun de los parrafos a amarillo */
+p {
+	background-color: yellow;
+}
+
+/* Todos los inputs un borde rojo de 3pixeles */
+input {
+	border: solid;
+	border-color: #DB1339;
+	border-width: 3px;
+}
+
+/* Todo con la clase hello un background blanco */
+.hello {
+	background-color: white;
+}
+
+/* Elemento con id special borde con 2 pixeles azul hexadecimal */
+#special {
+	border: solid;
+	border-color: #125599;
+	border-width: 2px;
+}
+
+/* Todos los parrafos dentro de div que tengan una fuente de 25 pixeles */
+div p {
+	font-size: 25px;
+}
+
+/* Los inputs de tipo texto tengan un fondo gris */
+input[type="text"]{
+	background-color: gray;
+}
+
+/* Los parrafos dentro del tercer div tengan un background rosa */
+ div:nth-of-type(3) p {
+ 	background-color: pink;
+ }
+
+/* El segundo parrafo dentro del tercer div un borde blanco de 5px */
+div:nth-of-type(3) p:nth-of-type(2){
+	border: solid;
+	border-width: 5px;
+	border-color: white;
+}
+
+/* El elemento em en el tercer div con color blanco y 20 pixeles de fuente*/
+div:nth-of-type(3) em {
+	color: white;
+	font-size: 20px;
+}
+
+/*BONUS*/
+/*Probablemente tendras que investigar un poco*/
+
+/* Todos los checboxes activos tengan un margen de 50px */
+input[type="checkbox"]:checked{
+	margin: 50px;
+}
+
+/* Todos los labels sean en mayusculas(sin cambiar el html :))*/
+label{
+	text-transform: uppercase;
+}
+
+/* La primera letra de elemento con id special sea color verde con una fuente de 100 pixeles*/
+#special:first-letter{
+	color: green;
+	font-size: 100px;
+}
+
+/* Todos los elementos h1 en hover, cambien a color azul */
+h1:hover {
+	color: blue;
+}
+
+/* Todos los elementos a que hayan sido visitados cambiar el color a gris */
+a:visited {
+	color: gray;
+}
