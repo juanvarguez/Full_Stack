@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Formulario</h1>
+
+	<form method="GET">
+		<fieldset>
+			<legend>Informacion de usuario</legend>
+			<label>Nombre: </label>
+			<input type="text" name="nombre" required="true">
+			<hr>
+			<label>Contrasenia: </label>
+			<input type="password" name="password" minlength="5" maxlength="10" required="true" autofocus="true">
+			<hr>
+			<label>Email: </label>
+			<input type="email" name="email" required="true">
+			<hr>
+		</fieldset>
+		<fieldset>
+			<legend>Informacion General</legend>
+			<label for="series">Serie favorita: </label>
+			<input type="checkbox" name="series"><span>Stranger Things</span>
+			<input type="checkbox" name="series"><span>Black Mirror</span>
+			<input type="checkbox" name="series"><span>Sherlock</span><br>
+			<label>Pais de origen</label>
+			<select name="paises">
+				<option value="0">Mexico</option>
+				<option value="1">Espania</option>
+				<option value="2">Colombia</option>
+				<option value="3">Ecuador</option>
+				<option value="4">Chile</option>
+			</select>
+			<hr>
+			<textarea placeholder="Comments" cols="100" rows="10"></textarea>
+			<hr>
+			<label>CV: </label>
+			<input type="file" name="cv">
+			<hr>
+			<input type="checkbox" name="TCA" required="true"><span>Acepto Terminos y Condiciones</span>
+		</fieldset>
+		<input type="submit" name="submit" value="Enviar">
+	</form>
+</body>
+</html>
