@@ -8,6 +8,7 @@ body {
 /* Hacer <h1> con color #9b59b6 */
 h1 {
 	color: #9b59b6;
+	font-family: 'Roboto'
 }
 
 /* Hacer todos los <h2> con color naranja */
@@ -46,7 +47,7 @@ input {
 
 /* Todos los parrafos dentro de div que tengan una fuente de 25 pixeles */
 div p {
-	font-size: 25px;
+	font-size: 1em;
 }
 
 /* Los inputs de tipo texto tengan un fondo gris */
