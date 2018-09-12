@@ -1,0 +1,75 @@
+body {
+	margin: 0px;
+}
+
+.menu {
+	background-color: blue;
+	height: 75px;
+}
+.container {
+	width: 800px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.container .sidebar{
+	float: left;
+	background-color: red;
+	width: 150px;
+	padding: 10px;
+}
+
+.container .sidebar div{
+	background-color: red;
+}
+
+.container div{
+	background-color: orange;
+	width: 600px;
+	float: left;
+}
+
+h2 {
+	text-align: center;
+}
+
+.container img {
+	float: left;
+}
+
+.contents div{
+	background-color: blue;
+	float: left;
+	width: 31.33%;
+	margin: 1%;
+	height: 160px;
+}
+
+.contents {
+	margin: 0px auto;
+	background-color: gray;
+}
+
+.contains-float-element::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+@media (max-width: 800px){
+	.sidebar {
+		display: none;
+	}
+	.media{
+		width: 100%;
+	}
+	.contents div{
+		width: 48%;
+	}
+}
+
+@media (max-width: 400px){
+	.contents div{
+		width: 98%;	
+	}
+}
