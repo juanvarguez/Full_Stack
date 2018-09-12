@@ -14,12 +14,33 @@ h2 {
 	margin: 0px auto;
 }
 
+/*
 .container img{
 	float: left;
 	width: 31.33%;
 	margin: 1%;
 	height: 400px;
 }
+*/
+
+.container div{
+	float: left;
+	width: 31.33%;
+	margin: 1%;
+	height: 280px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#one{background-image:  url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Cerro_de_la_Silla.jpg/1200px-Cerro_de_la_Silla.jpg")}
+#two{background-image: url("http://info7rm.blob.core.windows.net/images/2017/12/08/cerrodelasilla6.jpg")}
+#three{background-image: url("http://dominio.fm/wp-content/uploads/2016/03/mty_cerro_920_1.jpg")}
+#four{background-image: url("https://www.mexicodesconocido.com.mx/sites/default/files/styles/adaptive/public/nodes/987/cerro-silla-nuevo-leon.jpg")}
+#five{background-image: url("https://www.gaiaxtreme.com/wp-content/uploads/2017/11/23154771_1760178214056571_7439637349314635655_o.jpg")}
+#six{background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/2/2018/07/Cerro-de-la-Silla-Monterrey.jpg")}
+#seven{background-image: url("https://info7rm.blob.core.windows.net.optimalcdn.com/images/2016/11/08/637548_cerro_de_la_silla.jpg")}
+#eight{background-image: url("https://mt.brightspotcdn.com/dims4/default/8ec8f77/2147483647/thumbnail/800x450%5E/quality/90/?url=https%3A%2F%2Fmt.brightspotcdn.com%2Fmedia%2F2015%2F10%2F27%2Festadio-y-cerro.jpg")}
+#nine{background-image: url("https://c1.staticflickr.com/4/3955/15344879937_06fcafb7f8_b.jpg")}
 
 .float {
 	content: '';
@@ -28,7 +49,7 @@ h2 {
 }
 
 @media (max-width: 800px){
-	.container img {
+	.container div {
 		width: 48%;
 	}
 	.menu {
@@ -37,7 +58,7 @@ h2 {
 }
 
 @media (max-width: 400px){
-	.container img{
+	.container div{
 		width: 98%;	
 	}
 	.menu {
