@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body, html{
+			height: 100%;
+			margin: 0;
+		}
+		.parent	{
+			display: flex;
+			flex-direction: row;
+			height: 100%;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.parent div{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			background-color: red;
+			height: 100px;
+			width: 100px;
+			border: solid black 1px;
+			order: 3;
+			flex-grow: 2;
+		}
+		.parent p{
+			font-size: 20px;
+		}
+
+		#first{
+			order: 1;
+			flex-grow: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div><p>1</p></div>
+		<div><p>2</p></div>
+		<div><p>3</p></div>
+		<div id="first"><p>4</p></div>
+	</div>
+</body>
+</html>
