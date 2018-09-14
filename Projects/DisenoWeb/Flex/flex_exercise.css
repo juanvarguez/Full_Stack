@@ -12,6 +12,7 @@ html, body{
 	margin: 0 auto;
 	width: 80%;
 	padding: 0 3%;
+	min-height: 100%;
 }
 
 nav{

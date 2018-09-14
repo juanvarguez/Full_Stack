@@ -1,0 +1,123 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	min-height: 100%;
+	margin: 0;
+	display: flex;	
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex: 1;
+	margin: 0 auto;
+}
+
+.container .left{
+	background-color: #2d2e2e;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 400px;
+}
+
+#photo-cv{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("https://funalive.com/uploads/files/article/images/Blogger.jpg");
+}
+
+.container .right{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: black;
+	color: #a4a5a6;
+	min-width: 400px;
+}
+
+.container .right .information{
+	margin: 0 30px;
+}
+
+.container .right .name{}
+
+.container .right .name .first{
+	margin: 1px auto;
+}
+
+.container .right .name .last{
+	margin: 1px auto;
+	color: #e0a80d;
+}
+
+.container .right .information .contact{
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+
+	border-top: solid gray 1px;
+}
+
+.container .right .information .contact p{
+	margin: 0;
+}
+
+.container .right .information .contact div{
+	padding: 10px 0;
+	flex: 1;
+	min-width: 140px;
+}
+
+/*
+@media screen and (max-width: 800px){
+	.container .right .information .contact div{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.container{
+		flex-direction: column;
+	}
+
+	.container .right .information .contact div{
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		flex-direction: column;
+	}
+
+	.container .right .information .contact div{
+		width: 50%;
+	}
+}
+*/
+/*(.contact .location{
+	width: 33.33%;
+}
+
+.contact .phone{
+	width: 33.33%;
+}
+
+.contact .web{
+	width: 33.33%;
+}
+
+.contact .email{
+	width: 33.33%;
+}*/
