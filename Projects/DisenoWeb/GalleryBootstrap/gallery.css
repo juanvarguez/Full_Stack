@@ -1,10 +1,10 @@
-.row > div{
+.row > div > div{
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 340px;
 }
 
-#one{background-image:  url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Cerro_de_la_Silla.jpg/1200px-Cerro_de_la_Silla.jpg")}
+#one{background-image:  url("https://images.unsplash.com/photo-1530579807716-d82c0991629a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c708171e9cdb8ae7ed04f8e37e2808c&auto=format&fit=crop&w=634&q=80")}
 #two{background-image: url("https://images.unsplash.com/photo-1529472119196-cb724127a98e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7bf38f5aa643b71e5a41a38d28aac52c&auto=format&fit=crop&w=621&q=80")}
 #three{background-image: url("https://images.unsplash.com/photo-1527424726923-52e678bdbc3e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=08c084fafd7df7e919926c192760dee5&auto=format&fit=crop&w=1001&q=80")}
 #four{background-image: url("https://images.unsplash.com/photo-1524173988983-845c4353965b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=871e07035af826e322d732004c9f4ce6&auto=format&fit=crop&w=634&q=80")}
