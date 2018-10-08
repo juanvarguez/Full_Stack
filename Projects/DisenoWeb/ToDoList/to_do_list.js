@@ -1,6 +1,10 @@
 const input = document.querySelector("#input-todo");
 let remove = document.querySelectorAll("i");
 
+for(let i = 0; i < remove.length; i++){
+	remove[i].addEventListener("click", removeElement);
+}
+
 input.addEventListener("keydown", function(key){
 	const todoText = this.value.replace(/ /g,'');
 	if(key.keyCode == 13 && todoText != ""){
@@ -10,11 +14,8 @@ input.addEventListener("keydown", function(key){
 		new_el.classList.add("list-group-item");
 		new_el.innerHTML = todoText + '<i class="fas fa-times"></i>';
 		list.appendChild(new_el);
-		new_el.childNodes[i].addEventListener("click", removeElement());
+		new_el.childNodes[1].addEventListener("click", removeElement);
 	}});
-
-
-remove.forEach((element) => element.addEventListener("click", removeElement()));
 
 function removeElement(){
 	this.parentElement.remove();
